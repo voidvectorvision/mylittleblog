@@ -14,21 +14,18 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
   Title = "MyLittleBlog - By IceMoss"
-  Content = """欢迎到来，很高兴你能发现这里。
-    我将在此不定期写下所见所闻、所思所想
-    这一切将以 IceMoss 之名延续————
+  Content = """
+    很高兴你能发现这里。   
+    我将在此不定期写下所见所闻、所思所想。
+    这一切将以 IceMoss 之名延续 —
     如冰上的苔藓般，沉静、生长、鲜活。
 
-    Welcome. Glad you found this place.
+    Glad you found this place.
     I’ll leave traces of what I see and think here.
     All will go on under the name IceMoss —
     calm, growing, alive, like moss upon ice.
   
   """
-
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:contact@icemoss.com"
 
 [params.assets]
   favicon = "Logo-500.png"
