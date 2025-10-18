@@ -28,10 +28,10 @@ theme = "PaperMod"
   """
 
 [params.assets]
-  favicon = "Logo-500.png"
-  favicon16x16 = "Logo-16.png"
-  favicon32x32 = "Logo-32.png"
-  apple_touch_icon = "Logo-180.png"
+  favicon = "images/Logo-500.png"
+  favicon16x16 = "images/Logo-16.png"
+  favicon32x32 = "images/Logo-32.png"
+  apple_touch_icon = "images/Logo-180.png"
 
 [menu]
   [[menu.main]]
