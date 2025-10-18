@@ -1,11 +1,44 @@
 baseURL = "https://blog.icemoss.com"
 languageCode = "zh-cn"
-title = "我的博客"
+title = "MyLittleBlog - By IceMoss"
+description = "All will go on under the name IceMoss — calm, growing, alive, like moss upon ice."
 theme = "PaperMod"
+languageCode = "zh-cn"
 
 [params]
+  defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  defaultTheme = "auto"
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "MyLittleBlog - By IceMoss"
+  Content = """欢迎到来，很高兴你能发现这里。
+    我将在此不定期写下所见所闻、所思所想
+    这一切将以 IceMoss 之名延续————
+    如冰上的苔藓般，沉静、生长、鲜活。
+
+    Welcome. Glad you found this place.
+    I’ll leave traces of what I see and think here.
+    All will go on under the name IceMoss —
+    calm, growing, alive, like moss upon ice.
+  
+  """
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:contact@icemoss.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 2
