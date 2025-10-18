@@ -3,7 +3,6 @@ languageCode = "zh-cn"
 title = "MyLittleBlog - By IceMoss"
 description = "All will go on under the name IceMoss — calm, growing, alive, like moss upon ice."
 theme = "PaperMod"
-languageCode = "zh-cn"
 
 [params]
   defaultTheme = "auto"
