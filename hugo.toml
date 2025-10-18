@@ -11,6 +11,7 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  assets = { favicon = "favicon.ico" }
 
 [params.homeInfoParams]
   Title = "MyLittleBlog - By IceMoss"
