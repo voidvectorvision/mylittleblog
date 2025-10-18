@@ -31,6 +31,12 @@ languageCode = "zh-cn"
   name = "email"
   url = "mailto:contact@icemoss.com"
 
+[params.assets]
+  favicon = "Logo-500.png"
+  favicon16x16 = "Logo-16.png"
+  favicon32x32 = "Logo-32.png"
+  apple_touch_icon = "Logo-180.png"
+
 [menu]
   [[menu.main]]
     identifier = "posts"
